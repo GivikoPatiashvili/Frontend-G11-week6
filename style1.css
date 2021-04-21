@@ -1,0 +1,50 @@
+body{
+    border: solid 5px grey;
+    border-radius: 20px;
+}
+footer,header{
+    width: 100%;
+    border-radius: 10px;
+}
+main{
+    width: 60%;
+    min-height: 500px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main div{
+    width: 300px;
+    margin: 10px;
+    height: 240px;
+    border-radius: 10px;
+}
+footer{
+    height: 125px;
+    background-color: rgb(46, 83, 151);
+    color: white;
+    position: relative;
+}
+header{
+    height: 125px;
+    background-color: rgb(51, 135, 245);
+    color: white;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 90px;
+    font-size: 20px;
+}

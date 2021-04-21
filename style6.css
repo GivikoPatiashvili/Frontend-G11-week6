@@ -1,0 +1,17 @@
+
+.container {
+    width: 60%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: center;  
+    background-color: cadetblue;
+  }
+.container > div {
+    height: 40px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    color: grey;
+    border-radius: 10px;
+}

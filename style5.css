@@ -1,0 +1,23 @@
+body{
+    width: 33%;
+    min-height: 100px;
+    border: solid 1px gray;
+    margin: auto;
+    display: flex;
+    flex-direction: row
+}
+.container {
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+  }
+.container > div {
+    background-color: #f1f1f1;
+    width: 40px;
+    margin: 2px;
+    background-color: rgb(12, 99, 199);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+
+}

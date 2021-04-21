@@ -1,0 +1,21 @@
+.main{
+  width: 50%;
+  height: 200px;
+  border: solid 1px black;
+  margin: auto;
+
+}
+.container {
+  display: flex;
+  align-content: space-around;
+  background-color: rgb(151, 230, 49);
+  justify-content: flex-start;
+  flex-wrap: wrap;   
+  border: solid 2px rgb(130, 238, 224);
+}
+  
+.container > div {
+  background-color: aquamarine;
+  width: 20%;
+  height: 55px;
+}
